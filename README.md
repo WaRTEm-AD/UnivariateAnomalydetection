@@ -7,4 +7,4 @@
  Menton the parammeters as input arguments along with python run command
  Also these parameters can be mentioned in dict_to_yaml.py
  
- Anomaly scoring after representation learning can be done with point/seq_anomaly scoring.ipyng
+ Anomaly scoring after representation learning can be done with point/seq_anomaly scoring.ipynb
