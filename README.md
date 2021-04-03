@@ -20,4 +20,4 @@ Usage
 
 WaRTEM-AD directory has main code of Twin auto ecoder architecture, Warp operators and representation extraction. This code can be executed easily using code_wartem.ipynb python notebook. required parameter setting should be provided in dict_to_yaml.py or can be given along with python execution command
 
-Anomaly scoring after representation learning can be done with point_anomalyscoring.ipynb/seq_anomaly scoring.ipynb
+Data subsequencing for representaion learning and Anomaly scoring after representation learning can be done with point_anomalyscoring.ipynb/seq_anomaly scoring.ipynb
