@@ -1,6 +1,7 @@
 Overview
 
-This is the implementation for Twin-Autoencoder and anomaly detection procedure mentioned in "Warping Resilient Robust Anomaly Detection in Time Series"
+This is the implementation for Twin-Autoencoder and anomaly detection procedure mentioned in 
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231222011249">"Warping Resilient Robust Anomaly Detection in Time Series"</a>
 
 
 WARTEm-AD is unsupervised anomaly detection model which efficiently detects all types of anomalies such as point, sequence and sub-sequence anomalies, by learning warp resilent representaion form time series sequences. And anomaly scoring time sequences/points with these learnt representations using Nearest Neighbour method.
