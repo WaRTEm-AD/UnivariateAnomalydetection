@@ -47,8 +47,8 @@ to list docker containers:
 docker ps -a
 
 to stop and remove docker container:
-docker stop <container id>
-docker rm <container id>
+docker stop <container_id>
+docker rm <container_id>
 
 to list docker images:
 docker images
