@@ -21,4 +21,20 @@ Usage
 
 WaRTEM-AD directory has main code of Twin auto ecoder architecture, Warp operators and representation extraction. This code can be executed easily using code_wartem.ipynb python notebook. required parameter setting should be provided in dict_to_yaml.py or can be given along with python execution command
 
+For executing the code docker installation has to be done
+
+Docker installation steps (for ubuntu 18.04):
+1) sudo apt update
+2) sudo apt install apt-transport-https ca-certificates curl software-properties-common
+3) sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+4) sudo apt update
+5) apt-cache policy docker-ce
+6) sudo apt install docker-ce
+7) sudo systemctl status docker
+8) sudo docker pull nvcr.io/nvidia/tensorflow:19.11-tf1-py3
+9) sudo docker run --gpus all -it nvcr.io/nvidia/tensorflow:19.11-tf1-py3 bash
+10) pip install keras 2.3.1
+11) pip install h5py==2.10.0
+
+
 Data subsequencing for representaion learning and Anomaly scoring after representation learning can be done with point_anomalyscoring.ipynb/seq_anomaly scoring.ipynb
