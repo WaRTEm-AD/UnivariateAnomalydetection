@@ -40,20 +40,26 @@ After entering docker shell install:
 1) pip install keras==2.3.1
 2) pip install h5py==2.10.0
 
-to exit from docker
+to exit from docker:
 exit
-to list docker containers
+
+to list docker containers:
 docker ps -a
-to stop and remove docker container
+
+to stop and remove docker container:
 docker stop <container id>
 docker rm <container id>
-to list docker images
+
+to list docker images:
 docker images
-to remove docker image
+
+to remove docker image:
 docker rmi <image id>
-to start docker container
-sudo docker start 025dc57b02ee
-to execute docker <container id>
+
+to start docker container:
+sudo docker start <container id>
+
+to execute docker:
 sudo docker exec -it <container id> /bin/bash
 
 
