@@ -54,13 +54,13 @@ to list docker images:
 docker images
 
 to remove docker image:
-docker rmi <image id>
+docker rmi <image_id>
 
 to start docker container:
-sudo docker start <container id>
+sudo docker start <container_id>
 
 to execute docker:
-sudo docker exec -it <container id> /bin/bash
+sudo docker exec -it <container_id> /bin/bash
 
 
 Data subsequencing for representaion learning and Anomaly scoring after representation learning can be done with point_anomalyscoring.ipynb/seq_anomaly scoring.ipynb
