@@ -26,3 +26,4 @@ shuffle: true
 validation_split: 0.8
 verbosity: 0
 warping: copy
+point: true
