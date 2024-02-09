@@ -8,18 +8,18 @@ early_stopping:
   verbose: 1
 epochs: 2000
 extra_verbose: 1
-input_data_folder: /content/gdrive/My Drive/code_to_train_and_use_new_models/model_with_dense_layer_deeper/data/
+input_data_folder: data/
 learning_rate: 0.001
-loss_path: /content/gdrive/My Drive/code_to_train_and_use_new_models/model_with_dense_layer_deeper/wartem/losses/
+loss_path: wartem/losses/
 model_checkpoint:
   mode: min
   monitor: val_loss
   save_best_only: true
-model_path: /content/gdrive/My Drive/code_to_train_and_use_new_models/model_with_dense_layer_deeper/wartem/models/
+model_path: wartem/models/
 n_channels: 1
 num_inits: 1
 num_warps: 50
-params_dump_path: /content/gdrive/My Drive/code_to_train_and_use_new_models/model_with_dense_layer_deeper/wartem/params_dump/
+params_dump_path: wartem/params_dump/
 rep_length: 10
 resume_check: true
 shuffle: true
