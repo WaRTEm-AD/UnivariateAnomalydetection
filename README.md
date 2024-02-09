@@ -33,11 +33,28 @@ Docker installation steps (for ubuntu 18.04):
 7) sudo systemctl status docker
 8) sudo docker pull nvcr.io/nvidia/tensorflow:19.11-tf1-py3
 9) sudo docker run --gpus all -it nvcr.io/nvidia/tensorflow:19.11-tf1-py3 bash
+   
 
 After entering docker shell install:
 
 1) pip install keras==2.3.1
 2) pip install h5py==2.10.0
+
+to exit from docker
+exit
+to list docker containers
+docker ps -a
+to stop and remove docker container
+docker stop <container id>
+docker rm <container id>
+to list docker images
+docker images
+to remove docker image
+docker rmi <image id>
+to start docker container
+sudo docker start 025dc57b02ee
+to execute docker <container id>
+sudo docker exec -it <container id> /bin/bash
 
 
 Data subsequencing for representaion learning and Anomaly scoring after representation learning can be done with point_anomalyscoring.ipynb/seq_anomaly scoring.ipynb
