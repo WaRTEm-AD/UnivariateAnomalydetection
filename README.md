@@ -36,7 +36,7 @@ Docker installation steps (for ubuntu 18.04):
 
 After entering docker shell install:
 
-1) pip install keras 2.3.1
+1) pip install keras==2.3.1
 2) pip install h5py==2.10.0
 
 
