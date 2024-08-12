@@ -1,4 +1,4 @@
-Overview
+**Overview**
 
 This is the implementation for Twin-Autoencoder and anomaly detection procedure mentioned in 
 <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231222011249">"Warping Resilient Robust Anomaly Detection in Time Series"</a>, Neurocomputing Journal, 2023
@@ -6,7 +6,7 @@ This is the implementation for Twin-Autoencoder and anomaly detection procedure 
 
 WARTEm-AD is unsupervised anomaly detection model which efficiently detects all types of anomalies such as point, sequence and sub-sequence anomalies, by learning warp resilent representaion form time series sequences. Anomaly scores of time sequences/points are computed based on these learnt representations using Nearest Neighbour method (K-NN or LOF).
 
-Dataset
+**Dataset**
 
 Numenta Anomaly Benchmark dataset (NAB)
 https://github.com/numenta/NAB
@@ -17,7 +17,7 @@ https://www.cs.ucr.edu/~eamonn/time_series_data/
 Discord dataset
 https://www.cs.ucr.edu/~eamonn/discords/
 
-Usage
+**Usage**
 
 WaRTEM-AD directory has main code of Twin auto ecoder architecture, Warp operators and representation extraction. This code can be executed easily using code_wartem.ipynb python notebook. Required parameter setting should be provided in dict_to_yaml.py or can be given along with python execution command
 
