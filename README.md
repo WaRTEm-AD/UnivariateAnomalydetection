@@ -19,7 +19,7 @@ https://www.cs.ucr.edu/~eamonn/discords/
 
 Usage
 
-WaRTEM-AD directory has main code of Twin auto ecoder architecture, Warp operators and representation extraction. This code can be executed easily using code_wartem.ipynb python notebook. required parameter setting should be provided in dict_to_yaml.py or can be given along with python execution command
+WaRTEM-AD directory has main code of Twin auto ecoder architecture, Warp operators and representation extraction. This code can be executed easily using code_wartem.ipynb python notebook. Required parameter setting should be provided in dict_to_yaml.py or can be given along with python execution command
 
 For executing the code docker installation has to be done
 
